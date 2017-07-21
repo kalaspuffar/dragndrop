@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Drag and drop</title>
+    <style>
+      article, article figure {
+        border: 1px solid blue;
+        padding: 10px;
+        min-height: 20px;
+      }
+
+      article * {
+        border: 1px solid red;
+      }
+
+      .ghost {
+        border: 2px dashed #ddd;
+      }
+    </style>
+  </head>
+  <body>
+    <article>
+      <h1>Lorem ipsum dolor sit amet</h1>
+      <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur sed ipsum in convallis. Cras nec diam dictum, aliquet nulla nec, vehicula felis. Suspendisse tincidunt iaculis nisl vel aliquet.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur sed ipsum in convallis. Cras nec diam dictum, aliquet nulla nec, vehicula felis. Suspendisse tincidunt iaculis nisl vel aliquet. Sed a semper sem. Morbi sit amet felis elementum, placerat neque vitae, suscipit augue. Etiam quis justo eu dolor vehicula eleifend. Proin ac tempus arcu, ac sodales ex. Mauris risus dolor, viverra tristique gravida ultricies, tempor et risus. Donec pharetra malesuada ex, at rhoncus ante lobortis blandit. Vestibulum quam sapien, finibus eget magna ac, dictum pharetra diam. Nullam purus metus, condimentum quis dolor sit amet, dignissim dictum mi. Quisque nunc sem, dictum non faucibus ac, ullamcorper nec nisl. Sed a metus a est fermentum semper non ac elit. Phasellus et justo at velit hendrerit pharetra sed non ligula. Aenean malesuada mauris vitae tellus lacinia feugiat. Morbi mollis erat ex, a bibendum dui ultrices vel.
+</p><p>
+Aliquam tempor lectus aliquet nulla molestie fringilla. Donec at ornare sapien. Pellentesque lacinia dui et blandit vehicula. Nam a consectetur quam. Phasellus eu turpis lorem. Morbi ac semper erat. Fusce tincidunt velit eget metus varius, at rhoncus arcu porttitor. Nullam sit amet elit tempor, accumsan nibh sit amet, porttitor elit. Sed efficitur eros et ligula tincidunt efficitur. Cras fermentum eleifend nibh, eget viverra dolor molestie ut. Fusce vulputate lectus mauris, quis tristique leo ullamcorper ac. In nec ultrices arcu. Nam tristique at felis eget pharetra. Quisque a lacinia metus, et fermentum ex. Morbi vulputate purus dui, ut mollis ligula dapibus a. Suspendisse semper nibh cursus lorem scelerisque scelerisque.
+</p><p>
+Aliquam nec iaculis ligula. Pellentesque a vulputate lorem. Vestibulum ut urna quis nunc fringilla tempus. Donec pellentesque ipsum tristique, tincidunt est volutpat, pulvinar tellus. Nulla eget sagittis magna, at auctor ex. Vestibulum pulvinar dui a feugiat aliquam. Integer eleifend sodales sapien vitae dictum. Sed ultrices mattis turpis, a fermentum ipsum porttitor quis. Duis cursus, sapien a suscipit vestibulum, tortor sapien dignissim velit, ac posuere tellus risus quis enim.
+</p><p>
+Phasellus vehicula tincidunt dapibus. Praesent ornare aliquet pellentesque. Nulla quam nunc, vestibulum at sodales sit amet, efficitur et sapien. Vivamus ac congue nisl. Sed vel tristique augue. Aliquam luctus congue sem. Vivamus tempus dapibus massa, in vulputate mauris suscipit eget. Suspendisse at egestas nisi. Maecenas velit massa, convallis in orci eu, ultrices rutrum massa. Duis velit risus, porta vel consequat et, molestie eget quam. Duis bibendum, leo id suscipit rutrum, odio turpis malesuada tellus, sit amet interdum dui mi at magna. Vivamus pellentesque lectus porttitor est lobortis mollis.
+</p><p>
+Ut in lectus urna. Phasellus in accumsan ex, non dapibus dolor. Integer vel fringilla magna. Nulla iaculis ante arcu, in bibendum risus egestas ut. Donec eget sem a diam mattis posuere vel sed orci. Ut ornare dui sed diam dapibus facilisis. Ut efficitur, lacus tristique ornare eleifend, leo purus porta purus, quis fringilla ante metus eu libero. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam at semper lorem. Duis rutrum, risus id vehicula vulputate, magna nisi venenatis arcu, in bibendum turpis massa venenatis diam. Donec sit amet orci ullamcorper, commodo elit sit amet, facilisis elit. In malesuada libero ac vehicula feugiat. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+</p><p>
+Nullam quis purus non libero ultrices pulvinar. Proin lobortis, dolor interdum laoreet venenatis, nunc nibh interdum lorem, at ultricies neque quam a ante. Praesent pulvinar eros ut nulla bibendum volutpat. Aenean faucibus ante at dui lobortis, quis sagittis quam imperdiet. Proin neque velit, fermentum nec turpis ut, fringilla dignissim sem. Proin id augue ac ante aliquet finibus eget ut est. Suspendisse facilisis augue ac lacus ultrices, non congue tortor interdum. Phasellus ultrices dignissim hendrerit. Praesent aliquam urna tellus, a consequat nisl fermentum in. Nullam tempor cursus ipsum, in aliquam ante tempor vel. Nullam malesuada eget velit eget dignissim.
+</p><p>
+In hac habitasse platea dictumst. Nullam ultricies, lacus at fringilla viverra, elit mauris vulputate est, ut venenatis lectus magna id nisl. Phasellus viverra, sapien et mollis euismod, libero est maximus nibh, in bibendum ante tellus a urna. Donec sollicitudin ante in mauris dignissim, et pellentesque ipsum congue. Pellentesque viverra enim non sem iaculis euismod. Nam ut tellus et tellus tincidunt porttitor sodales in nisi. Vivamus convallis hendrerit libero ut accumsan. Ut nisi lacus, convallis facilisis mi ut, vehicula varius tortor. Nam a massa lacus. Pellentesque ut auctor nulla. Integer lobortis vel dolor non eleifend. Praesent nulla nisl, convallis eget arcu in, gravida scelerisque diam. Pellentesque a sodales ex. Fusce eu nibh nunc. Praesent rutrum tempus ante eu blandit. Maecenas dignissim elementum dui at ullamcorper.
+</p><p>
+Curabitur faucibus sed nulla ac convallis. Cras aliquet egestas tincidunt. Nulla vulputate lorem ex, vel sodales ipsum sagittis ac. Etiam imperdiet libero quis blandit vestibulum. In viverra porta porta. Donec varius purus in lobortis condimentum. Fusce porttitor nisi eros, at mollis turpis mattis sed. Sed facilisis lobortis neque, ut volutpat velit sollicitudin ac. Nulla consequat nisi nec sapien feugiat mattis. Pellentesque lobortis congue metus et vehicula. Curabitur id sodales est, vitae malesuada nisl.
+</p><p>
+Proin dapibus tincidunt gravida. Mauris in scelerisque risus, eget ornare libero. Suspendisse id quam accumsan, congue leo luctus, auctor urna. Mauris sit amet posuere dui. Aliquam erat volutpat. Duis facilisis tortor ac leo congue, non fermentum eros lacinia. Donec semper risus id felis egestas ullamcorper. Ut porta tempor porttitor. Cras sodales eros sit amet mollis auctor. Morbi eget ligula est. Etiam hendrerit libero at lacus dignissim convallis.
+</p><p>
+In blandit, ex nec luctus accumsan, velit lacus blandit ex, non fringilla massa ante eu leo. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla facilisi. Sed eget faucibus est. Ut ultricies eget dolor eget lobortis. Aliquam sed facilisis risus. Vestibulum vitae faucibus elit. Sed gravida tortor at nibh hendrerit, eget feugiat purus molestie. Fusce porttitor, dui vitae semper eleifend, risus nunc molestie enim, at efficitur orci enim a neque. Mauris orci neque, luctus eu auctor auctor, pulvinar in dolor. Aliquam eu volutpat tortor. Morbi id tincidunt diam. Praesent et ullamcorper erat, quis fringilla nulla. Fusce mi diam, consequat quis turpis at, tempus cursus orci. Phasellus vestibulum tortor ultricies arcu vulputate, eleifend malesuada nulla euismod. Nulla facilisi.</p>
+      <figure>
+        <img src="brightblueball.jpg" width="100" height="100" />
+        <figcaption>Bright blue ball</figcaption>
+      </figure>
+    </article>
+    <script>
+      var acceptableDragList = ['FIGURE', 'FIGCAPTION', 'P', 'H1', 'IMG'];
+      var acceptableDropList = ['ARTICLE', 'FIGURE'];
+      var ghostElement;
+
+      function dragStartHandle(e) {
+        e.target.style.opacity = 0.4;
+        dragElementHeight = e.target.clientHeight;
+        e.dataTransfer.setData("elementId", e.target.dataset.dragId);
+      }
+      function dragEndHandle(e) {
+        e.target.style.opacity = 1;
+        setTimeout(function() {
+          if(ghostElement.parentNode) {
+            ghostElement.parentNode.removeChild(ghostElement);
+          }
+        }, 100);
+      }
+      function dragOverHandle(e) {
+        if(acceptableDropList.indexOf(e.target.nodeName) != -1) {
+          var inserted = false;
+          var cList = e.target.children;
+          if(cList) {
+            for(var i=0; i<cList.length; i++) {
+              if(acceptableDragList.indexOf(cList[i].nodeName) != -1) {
+                var childPos = cList[i].offsetTop;
+                var parentPos = e.target.offsetTop;
+                if(e.offsetY < childPos - parentPos) {
+                  e.target.insertBefore(ghostElement, cList[i]);
+                  inserted = true;
+                  break;
+                }
+              }
+            }
+          }
+          if(!inserted) e.target.appendChild(ghostElement);
+        }
+        e.preventDefault();
+      }
+      function dropHandle(e) {
+        var data = e.dataTransfer.getData("elementId");
+        var draggedElement = document.querySelector('[data-drag-id="' + data + '"]');
+        if(ghostElement.parentNode) {
+          ghostElement.parentNode.insertBefore(draggedElement, ghostElement);
+          if(e.target == ghostElement) {
+            ghostElement.parentNode.insertBefore(draggedElement, ghostElement);
+          }
+        }
+        e.preventDefault();
+      }
+
+      function addDragHandle(el, elementId) {
+        el.ondragover = dragOverHandle;
+        el.ondrop = dropHandle;
+
+        var cList = el.children;
+        for(var i=0; i<cList.length; i++) {
+          if(acceptableDropList.indexOf(cList[i].nodeName) != -1) {
+            addDragHandle(cList[i], elementId++);
+          }
+          if(acceptableDragList.indexOf(cList[i].nodeName) != -1) {
+            cList[i].ondragstart = dragStartHandle;
+            cList[i].ondragend = dragEndHandle;
+            cList[i].draggable = true;
+            cList[i].dataset.dragId = cList[i].nodeName + '_' + elementId++;
+          }
+        }
+        ghostElement = document.createElement("div");
+        ghostElement.className = 'ghost';
+        ghostElement.innerHTML = 'Drop here';
+      }
+
+      //window.ondragstart = function() { return false;};
+      var el = document.querySelector('article');
+      addDragHandle(el, 1);
+    </script>
+  </body>
+</html>
